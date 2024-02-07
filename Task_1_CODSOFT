@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+double addition( double a, double b)
+{
+    double res = a+b;
+    return res;
+}
+double sub(double a,double b)
+{
+    double res = a-b;
+    return res;
+}
+double mul(double a, double b)
+{
+	double res = a*b;
+	return res;
+}
+double div(double a , double b)
+{
+	double res = a/b;
+	return res;
+}
+int main()
+{
+   double a , b , result;
+   cout<<"Enter value for a = ";
+   cin>>a;
+   cout<<"Enter value for b = ";
+   cin>>b;
+   
+   cout<<"Addiotion is : "<<addition(a,b)<<"\n";
+   cout<<"Substraction is : "<<sub( a,b)<<"\n";
+	cout<<"multiplication is : "<<mul( a,b)<<"\n";
+    cout<<"division is : "<<div( a,b)<<"\n";
+
+return 0;
+}
+
+
